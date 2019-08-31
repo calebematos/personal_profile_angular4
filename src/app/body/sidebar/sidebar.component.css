@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+li:hover > a { 
+  color: #fff;  
+}
+
 /*
 .navbar .navbar-nav {
   float: none;

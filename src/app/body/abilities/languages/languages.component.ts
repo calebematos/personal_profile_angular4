@@ -9,8 +9,8 @@ import {UserAbilitiesService} from "../user-abilities.service";
 export class LanguagesComponent implements OnInit {
   private userAbilitiesInfo;
   private arraylength;
-  private languagesList1 = [];
-  private languagesList2 = [];
+  public languagesList1 = [];
+  public languagesList2 = [];
 
   constructor(private userAbilitiesService: UserAbilitiesService) { }
 
