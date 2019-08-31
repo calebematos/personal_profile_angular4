@@ -13,16 +13,16 @@ export class SkillsComponent implements OnInit {
   private arraylength;
   public skillsList1 = [];
   public skillsList2 = [];
+  public finalList = [];
 
   constructor(private userService: UserService, private userAbilitiesService: UserAbilitiesService) { }
 
   ngOnInit() {
     this.userInfo = this.userService.getUserInfo();
     this.userAbilitiesInfo = this.userAbilitiesService.getAbilitiesInfo();
-    this.arraylength = this.userAbilitiesInfo['skills'].length;
-    this.skillsList1 = this.userAbilitiesInfo['skills'].slice(0,this.arraylength/2);
-    if(this.arraylength > 0)
-      this.skillsList2 = this.userAbilitiesInfo['skills'].slice(this.arraylength/2,this.arraylength);
+    this.finalList = this.userAbilitiesInfo['abilities'];
+    console.log(this.finalList);
+    
   }
 
 }
