@@ -3,18 +3,23 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserService {
   private userInfo = {
-    name: "[Your name here]",
-    jobTitle: "[Job Title here]",
-    aboutMe: "[Place your description here... For instance: I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.]",
-    profilePicture: "http://i0.wp.com/cdn.techgyd.com/save-whatsapp-profile-picture-image3.jpg?resize=337%2C337",
-    location: "[Your location here]",
-    email: "[Your email here]",
+    name: "Lucas Calebe Matos Lopes",
+    jobTitle: "Full Stack Developer",
+    aboutMe: `
+    I'm a Senior Full Stack Developer with over 5 years of experience developing software with high standards and interacting with multiple 
+    stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. 
+    I work with technologies such as Java, Hibernate, SQL, Oracle Databases. I am committed to work and willing to help. 
+    Bachelor's Degree in Information Systems.I love develop and study  software development.
+   `,
+    profilePicture: "./assets/profile.jpg",
+    location: "Brazil",
+    email: "calebematos@gmail.com",
     devpostAccount: "",
-    facebookAccount: "",
-    githubAccount: "[Your GitHub account here]",
+    facebookAccount: "facebook.com/calebe.matos.5",
+    githubAccount: "github.com/calebematos",
     googleAccount: "",
-    linkedinAccount: "",
-    twitterAccount: "",
+    linkedinAccount: "linkedin.com/in/calebematos/en",
+    twitterAccount: "twitter.com/calebematos",
     otherAccount: ""
   };
 

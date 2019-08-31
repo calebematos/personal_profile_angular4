@@ -3,22 +3,22 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class PageService {
   private pageInfo = {
-    backgroundImage: "http://www.schoolsplus.co.uk/wp-content/uploads/2017/06/technology.jpg",
+    backgroundImage: "./assets/cover.jpg",
     showHeader: true,
     showProfile: true,
     profileBackgroundColor: "white",
     showExperiences: true,
-    experiencesBackgroundColor: "rgb(252, 243, 207)",
+    experiencesBackgroundColor: "rgb(245, 245, 245, 1)",
     showAbilities: true,
     abilitiesBackgroundColor: "white",
     showProjects: true,
-    projectsBackgroundColor: "rgb(252, 243, 207)",
+    projectsBackgroundColor: "rgb(245, 245, 245, 1)",
     showAwards: false,
     awardsBackgroundColor: "white",
     showContact: true,
     contactBackgroundColor: "rgb(66, 73, 73)",
-    resumeTitle: "[Your online resume's title here]",
-    projectLink: "https://github.com/Wrinth/personal_profile_angular4"
+    resumeTitle: "SOFTWARE DEVELOPER",
+    projectLink: "https://github.com/calebematos/personal_profile_angular4"
   };
 
   getPageInfo() {
