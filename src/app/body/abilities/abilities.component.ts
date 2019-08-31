@@ -9,8 +9,8 @@ import {PageService} from "../../page.service";
   providers: [UserAbilitiesService]
 })
 export class AbilitiesComponent implements OnInit {
-  private userAbilitiesInfo;
-  private pageInfo;
+  public userAbilitiesInfo;
+  public pageInfo;
 
   constructor(private userAbilitiesService: UserAbilitiesService, private pageService: PageService) { }
 

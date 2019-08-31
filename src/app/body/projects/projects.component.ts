@@ -9,8 +9,8 @@ import {UserProjectsService} from "./user-projects.service";
   providers: [UserProjectsService]
 })
 export class ProjectsComponent implements OnInit {
-  private projectInfo;
-  private pageInfo;
+  public projectInfo;
+  public pageInfo;
 
   constructor(private userProjectsService: UserProjectsService, private pageService: PageService) { }
 

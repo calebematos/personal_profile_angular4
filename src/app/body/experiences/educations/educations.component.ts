@@ -7,7 +7,7 @@ import {UserExperiencesService} from "../user-experiences.service";
   styleUrls: ['./educations.component.css']
 })
 export class EducationsComponent implements OnInit {
-  private userEducationsInfo;
+  public userEducationsInfo;
 
   constructor(private userExperiencesService: UserExperiencesService) { }
 

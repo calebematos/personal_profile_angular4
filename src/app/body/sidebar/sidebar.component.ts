@@ -7,7 +7,7 @@ import {PageService} from "../../page.service";
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  private pageInfo;
+  public pageInfo;
 
   constructor(private pageService: PageService) { }
 

@@ -8,8 +8,8 @@ import {PageService} from "../page.service";
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  private userInfo;
-  private pageInfo;
+  public userInfo;
+  public pageInfo;
 
   constructor(private userService: UserService, private pageService: PageService) { }
 

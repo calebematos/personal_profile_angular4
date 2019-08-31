@@ -8,8 +8,8 @@ import {PageService} from "../../page.service";
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  private userInfo;
-  private pageInfo;
+  public userInfo;
+  public pageInfo;
 
   constructor(private userService: UserService, private pageService: PageService) { }
 

@@ -9,8 +9,8 @@ import {UserAbilitiesService} from "../user-abilities.service";
 export class ToolsComponent implements OnInit {
   private userAbilitiesInfo;
   private arraylength;
-  private toolsList1 = [];
-  private toolsList2 = [];
+  public toolsList1 = [];
+  public toolsList2 = [];
 
   constructor(private userAbilitiesService: UserAbilitiesService) { }
 

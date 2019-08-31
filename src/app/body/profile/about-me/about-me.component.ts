@@ -7,7 +7,7 @@ import {UserService} from "../../../user.service";
   styleUrls: ['./about-me.component.css']
 })
 export class AboutMeComponent implements OnInit {
-  private userInfo;
+  public userInfo;
 
   constructor(private userService: UserService) { }
 
