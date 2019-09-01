@@ -1,3 +1,4 @@
+import { UserProjectsService } from './../../user-projects.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjestItemComponent implements OnInit {
 
-  constructor() { }
+  public projects;
+
+  constructor(private userProjectsService: UserProjectsService) { }
 
   ngOnInit() {
+    this.projects = this.userProjectsService.getProjectsInfo().projects;
   }
 
 }

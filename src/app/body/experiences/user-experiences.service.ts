@@ -12,7 +12,7 @@ export class UserExperiencesService {
         degreeTitle: "Bachelor Degree in Systems Information",
         certificationDescription: "",
         location: "Jequié-Ba"
-      }      
+      }
     ],
     careers: [
       {
@@ -70,7 +70,7 @@ export class UserExperiencesService {
       {
         certificateTitle: "Bachelor Degree",
         imageUrl: "./assets/Degree.png",
-        url:"#certificates",
+        url: "#certificates",
         target: ""
       },
       {
@@ -82,7 +82,7 @@ export class UserExperiencesService {
       {
         certificateTitle: "Web Design Responsive with HTML5, CSS3 and BEM",
         imageUrl: "/assets/Html5Css.png",
-        url:"#certificates",
+        url: "#certificates",
         target: ""
       }
     ]

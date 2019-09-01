@@ -1,15 +1,17 @@
-<div class="col-md-6 col-sm-12 col-xs-12">
-  <figure class="effect">
-    <img src="https://opensource.com/sites/default/files/code4.png" alt="[Project title here]">
+<div  *ngFor="let project of projects">  
+  <div class="col-md-6 col-sm-12 col-xs-12">
+    <figure class="effect">
+      <img [src]="project.projectImageLink" [alt]="project.projectTitle">
 
-    <figcaption>
-      <h3>[Project title here]</h3>
-      <p>[Project description here]</p>
-      <p><strong>Tags:</strong> <br>[List of skills]</p>
-      <a href="[Project link here]" target="_blank">View more</a>
-      <span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-    </figcaption>
-  </figure>
+      <figcaption>
+        <h3>{{project.projectTitle}}</h3>
+        <p>{{project.projectDescription}}</p>
+        <p><strong>Tags:</strong> <br>{{project.skillsList}}</p>
+        <a [href]="project.projectLink" target="_blank">View more</a>
+        <span class="icon">
+            <span class="glyphicon glyphicon-new-window"></span>
+          </span>
+      </figcaption>
+    </figure>
+  </div>
 </div>
