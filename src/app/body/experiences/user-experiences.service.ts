@@ -21,7 +21,7 @@ export class UserExperiencesService {
         endDate: "actual",
         jobType: "Full Stack Developer",
         jobTitle: "[Your job's title here]",
-        jobDuty: "[Your job's duty here]",
+        jobDuty: "",
         location: "Work remotely",
         companyLink: "www.integritas.net/"
       },
@@ -31,9 +31,39 @@ export class UserExperiencesService {
         endDate: "Feb/2019",
         jobType: "Full Stack Developer",
         jobTitle: "[Your job's title here]",
+        jobDudty: "Develop software",
+        location: "Blumenau-SC",
+        companyLink: "www.t-systems.com"
+      },
+      {
+        companyName: "HBSIS - (AMBEV)",
+        startDate: "May/2017",
+        endDate: "Nov/2018",
+        jobType: "Full Stack Developer",
+        jobTitle: "[Your job's title here]",
         jobDudty: "[Your job's duty here]",
         location: "Blumenau-SC",
         companyLink: "www.t-systems.com"
+      },
+      {
+        companyName: "Philips",
+        startDate: "Oct/2015",
+        endDate: "May/2017",
+        jobType: "Java Developer",
+        jobTitle: "[Your job's title here]",
+        jobDudty: "[Your job's duty here]",
+        location: "Blumenau-SC",
+        companyLink: "www.philips.com.br"
+      },
+      {
+        companyName: "Capgemini",
+        startDate: "Feb/2014",
+        endDate: "Oct/2015",
+        jobType: "Java Developer",
+        jobTitle: "[Your job's title here]",
+        jobDudty: "[Your job's duty here]",
+        location: "Salvador-BA",
+        companyLink: "www.capgemini.com/"
       }
     ],
     certificates: [
