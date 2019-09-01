@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserProjectsService {
   private projectsInfo = {
-    myProjects: "[Your projects details here]",
+    myProjects: "Listed below are some personal projects I developed with technologies I was studying.",
     projects: [
       {
         projectTitle: "My Money",
