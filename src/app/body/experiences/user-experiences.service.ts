@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserExperiencesService {
   private experiencesInfo = {
-    myExperiences: "[Your experience here]",
+    myExperiences: "",
     educations: [
       {
         schoolName: "Faculty of Technology and Sciences",

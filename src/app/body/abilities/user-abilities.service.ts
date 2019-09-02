@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserAbilitiesService {
   private abilitiesInfo = {
-    myAbilities: "[Your abilities details here]",
+    myAbilities: "",
     abilities: [
       {
         title: "Languages",
