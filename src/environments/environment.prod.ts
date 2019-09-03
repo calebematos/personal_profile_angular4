@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  myMoneyUrl: 'https://trunix-money-api.herokuapp.com'
 };

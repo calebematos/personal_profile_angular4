@@ -1,6 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import {UserService} from "./user.service";
-import {PageService} from "./page.service";
+import { Component, OnInit } from '@angular/core';
+import { UserService } from './user.service';
+import { PageService } from './page.service';
+import { ProjectsService } from './projects.service';
 
 @Component({
   selector: 'app-root',
@@ -11,11 +12,15 @@ export class AppComponent implements OnInit {
   public userInfo;
   public pageInfo;
 
-  constructor(private userService: UserService, private pageService: PageService) {}
+  constructor(
+    private userService: UserService,
+    private pageService: PageService,
+    private projectService: ProjectsService) { }
 
   ngOnInit() {
     this.userInfo = this.userService.getUserInfo();
     this.pageInfo = this.pageService.getPageInfo();
-    document.getElementById("body").style.backgroundImage = "url('" + this.pageInfo['backgroundImage'] + "')";
+    this.projectService.wakeupMyMoney();
+    document.getElementById('body').style.backgroundImage = `url('${this.pageInfo['backgroundImage']}')` ;
   }
 }

@@ -1,5 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -20,8 +21,9 @@ import { SkillsComponent } from './body/abilities/skills/skills.component';
 import { ProjestListComponent } from './body/projects/projest-list/projest-list.component';
 import { ProjestItemComponent } from './body/projects/projest-list/projest-item/projest-item.component';
 import { SocialAccountsComponent } from './body/contact/social-accounts/social-accounts.component';
-import {UserService} from "./user.service";
-import {PageService} from "./page.service";
+import { UserService } from './user.service';
+import { PageService } from './page.service';
+import { ProjectsService } from './projects.service';
 import { CertificatesComponent } from './body/experiences/certificates/certificates.component';
 
 @NgModule({
@@ -48,9 +50,14 @@ import { CertificatesComponent } from './body/experiences/certificates/certifica
     CertificatesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [UserService, PageService],
+  providers: [
+    UserService,
+    PageService,
+    ProjectsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {UserAbilitiesService} from "../user-abilities.service";
-import {UserService} from "../../../user.service";
+import { UserAbilitiesService } from '../user-abilities.service';
+import { UserService } from '../../../user.service';
 
 @Component({
   selector: 'app-skills',
@@ -21,8 +21,7 @@ export class SkillsComponent implements OnInit {
     this.userInfo = this.userService.getUserInfo();
     this.userAbilitiesInfo = this.userAbilitiesService.getAbilitiesInfo();
     this.finalList = this.userAbilitiesInfo['abilities'];
-    console.log(this.finalList);
-    
+
   }
 
 }
