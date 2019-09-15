@@ -12,13 +12,13 @@ export class UserProjectsService {
         skillsList: "Java, Spring, Angular, MySql",
         projectLink: "https://musing-keller-3d6f52.netlify.com/"
       },
-      // {
-      //   projectTitle: "Brewer",
-      //   projectImageLink: "https://opensource.com/sites/default/files/code4.png",
-      //   projectDescription: "[Project description here]",
-      //   skillsList: "[List of skills]",
-      //   projectLink: "[Project link here]"
-      // }
+      {
+        projectTitle: "Brewer",
+        projectImageLink: "https://cdn.civitatis.com/belgica/bruselas/galeria/cerveza-belga.jpg",
+        projectDescription: "Beer store.",
+        skillsList: "Java, Spring, Thymeleaf, MySql",
+        projectLink: "https://trunix-brewer.herokuapp.com/"
+      }
     ]
   };
 
