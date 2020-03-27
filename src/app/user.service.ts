@@ -10,6 +10,7 @@ export class UserService {
     stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. 
     I work with technologies such as Java, Hibernate, SQL, Oracle Databases. I am committed to work and willing to help. 
     Bachelor's Degree in Information Systems.I love develop and study  software development.
+    In my free time I like to play with my puppy(Totti), watch series and read manga.
    `,
     profilePicture: "./assets/profile.jpg",
     location: "Brazil",
