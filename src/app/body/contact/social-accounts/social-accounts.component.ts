@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../../../user.service';
 
 @Component({
   selector: 'app-social-accounts',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-accounts.component.css']
 })
 export class SocialAccountsComponent implements OnInit {
+  public userInfo;
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit() {
+    this.userInfo = this.userService.getUserInfo();
   }
 
 }

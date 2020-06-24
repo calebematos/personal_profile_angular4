@@ -17,10 +17,14 @@ export class UserService {
     email: "calebematos@gmail.com",
     devpostAccount: "",
     facebookAccount: "facebook.com/calebe.matos.5",
+    facebookAddress: "http://facebook.com/calebe.matos.5",
     githubAccount: "github.com/calebematos",
+    githubAddress: "http://github.com/calebematos",
     googleAccount: "",
     linkedinAccount: "linkedin.com/in/calebematos/en",
+    linkedinAddress: "http://linkedin.com/in/calebematos/en",
     twitterAccount: "twitter.com/calebematos",
+    twitterAddress: "http://twitter.com/calebematos",
     otherAccount: ""
   };
 
