@@ -34,6 +34,10 @@ export class UserAbilitiesService {
             proficiency: 4
           },
           {
+            name: "Spring Cloud",
+            proficiency: 4
+          },
+          {
             name: "JPA (Hibernate)",
             proficiency: 4
           },
