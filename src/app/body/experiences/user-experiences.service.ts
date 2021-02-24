@@ -16,9 +16,19 @@ export class UserExperiencesService {
     ],
     careers: [
       {
+        companyName: "Avenue Code",
+        startDate: "Oct/2020",
+        endDate: "actual",
+        jobType: " Senior Software Engineer",
+        jobTitle: "[Your job's title here]",
+        jobDuty: "",
+        location: "Work remotely",
+        companyLink: "www.avenuecode.com/"
+      },
+      {
         companyName: "Integritas",
         startDate: "Feb/2017",
-        endDate: "actual",
+        endDate: "Oct/2020",
         jobType: "Full Stack Developer",
         jobTitle: "[Your job's title here]",
         jobDuty: "",
