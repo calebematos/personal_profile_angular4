@@ -86,13 +86,13 @@ export class UserExperiencesService {
       {
         certificateTitle: "Fullstack Angular and Spring",
         imageUrl: "./assets/fullstack.png",
-        url: "https://www.algaworks.com/certs/0IWGHRIWC7/",
+        url: "https://www.algaworks.com/certs/YNV2GH4C73",
         target: "#"
       },
       {
-        certificateTitle: "Web Design Responsive with HTML5, CSS3 and BEM",
-        imageUrl: "/assets/Html5Css.png",
-        url: "#certificates",
+        certificateTitle: "Spring REST Specialist",
+        imageUrl: "/assets/springRestSpecialist.png",
+        url: "https://www.algaworks.com/certs/0722AZY7JQ",
         target: ""
       }
     ]
